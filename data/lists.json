@@ -1,0 +1,685 @@
+{
+  "lists": [
+    {
+      "id": "dialing-codes",
+      "name": "Country Dialing Codes",
+      "description": "Which country does this calling code belong to? Turn on “Hide details” to quiz yourself.",
+      "items": [
+        {
+          "text": "Afghanistan",
+          "detail": "+93"
+        },
+        {
+          "text": "Albania",
+          "detail": "+355"
+        },
+        {
+          "text": "Algeria",
+          "detail": "+213"
+        },
+        {
+          "text": "Argentina",
+          "detail": "+54"
+        },
+        {
+          "text": "Armenia",
+          "detail": "+374"
+        },
+        {
+          "text": "Australia",
+          "detail": "+61"
+        },
+        {
+          "text": "Austria",
+          "detail": "+43"
+        },
+        {
+          "text": "Azerbaijan",
+          "detail": "+994"
+        },
+        {
+          "text": "Bahrain",
+          "detail": "+973"
+        },
+        {
+          "text": "Bangladesh",
+          "detail": "+880"
+        },
+        {
+          "text": "Belarus",
+          "detail": "+375"
+        },
+        {
+          "text": "Belgium",
+          "detail": "+32"
+        },
+        {
+          "text": "Bolivia",
+          "detail": "+591"
+        },
+        {
+          "text": "Bosnia and Herzegovina",
+          "detail": "+387"
+        },
+        {
+          "text": "Brazil",
+          "detail": "+55"
+        },
+        {
+          "text": "Bulgaria",
+          "detail": "+359"
+        },
+        {
+          "text": "Cambodia",
+          "detail": "+855"
+        },
+        {
+          "text": "Cameroon",
+          "detail": "+237"
+        },
+        {
+          "text": "Canada",
+          "detail": "+1"
+        },
+        {
+          "text": "Chile",
+          "detail": "+56"
+        },
+        {
+          "text": "China",
+          "detail": "+86"
+        },
+        {
+          "text": "Colombia",
+          "detail": "+57"
+        },
+        {
+          "text": "Costa Rica",
+          "detail": "+506"
+        },
+        {
+          "text": "Croatia",
+          "detail": "+385"
+        },
+        {
+          "text": "Cuba",
+          "detail": "+53"
+        },
+        {
+          "text": "Cyprus",
+          "detail": "+357"
+        },
+        {
+          "text": "Czech Republic",
+          "detail": "+420"
+        },
+        {
+          "text": "Denmark",
+          "detail": "+45"
+        },
+        {
+          "text": "Dominican Republic",
+          "detail": "+1 (809/829/849)"
+        },
+        {
+          "text": "Ecuador",
+          "detail": "+593"
+        },
+        {
+          "text": "Egypt",
+          "detail": "+20"
+        },
+        {
+          "text": "El Salvador",
+          "detail": "+503"
+        },
+        {
+          "text": "Estonia",
+          "detail": "+372"
+        },
+        {
+          "text": "Ethiopia",
+          "detail": "+251"
+        },
+        {
+          "text": "Finland",
+          "detail": "+358"
+        },
+        {
+          "text": "France",
+          "detail": "+33"
+        },
+        {
+          "text": "Georgia",
+          "detail": "+995"
+        },
+        {
+          "text": "Germany",
+          "detail": "+49"
+        },
+        {
+          "text": "Ghana",
+          "detail": "+233"
+        },
+        {
+          "text": "Greece",
+          "detail": "+30"
+        },
+        {
+          "text": "Guatemala",
+          "detail": "+502"
+        },
+        {
+          "text": "Honduras",
+          "detail": "+504"
+        },
+        {
+          "text": "Hong Kong",
+          "detail": "+852"
+        },
+        {
+          "text": "Hungary",
+          "detail": "+36"
+        },
+        {
+          "text": "Iceland",
+          "detail": "+354"
+        },
+        {
+          "text": "India",
+          "detail": "+91"
+        },
+        {
+          "text": "Indonesia",
+          "detail": "+62"
+        },
+        {
+          "text": "Iran",
+          "detail": "+98"
+        },
+        {
+          "text": "Iraq",
+          "detail": "+964"
+        },
+        {
+          "text": "Ireland",
+          "detail": "+353"
+        },
+        {
+          "text": "Israel",
+          "detail": "+972"
+        },
+        {
+          "text": "Italy",
+          "detail": "+39"
+        },
+        {
+          "text": "Jamaica",
+          "detail": "+1 (876)"
+        },
+        {
+          "text": "Japan",
+          "detail": "+81"
+        },
+        {
+          "text": "Jordan",
+          "detail": "+962"
+        },
+        {
+          "text": "Kazakhstan",
+          "detail": "+7"
+        },
+        {
+          "text": "Kenya",
+          "detail": "+254"
+        },
+        {
+          "text": "Kuwait",
+          "detail": "+965"
+        },
+        {
+          "text": "Kyrgyzstan",
+          "detail": "+996"
+        },
+        {
+          "text": "Laos",
+          "detail": "+856"
+        },
+        {
+          "text": "Latvia",
+          "detail": "+371"
+        },
+        {
+          "text": "Lebanon",
+          "detail": "+961"
+        },
+        {
+          "text": "Libya",
+          "detail": "+218"
+        },
+        {
+          "text": "Lithuania",
+          "detail": "+370"
+        },
+        {
+          "text": "Luxembourg",
+          "detail": "+352"
+        },
+        {
+          "text": "Malaysia",
+          "detail": "+60"
+        },
+        {
+          "text": "Maldives",
+          "detail": "+960"
+        },
+        {
+          "text": "Mexico",
+          "detail": "+52"
+        },
+        {
+          "text": "Moldova",
+          "detail": "+373"
+        },
+        {
+          "text": "Mongolia",
+          "detail": "+976"
+        },
+        {
+          "text": "Morocco",
+          "detail": "+212"
+        },
+        {
+          "text": "Myanmar",
+          "detail": "+95"
+        },
+        {
+          "text": "Nepal",
+          "detail": "+977"
+        },
+        {
+          "text": "Netherlands",
+          "detail": "+31"
+        },
+        {
+          "text": "New Zealand",
+          "detail": "+64"
+        },
+        {
+          "text": "Nigeria",
+          "detail": "+234"
+        },
+        {
+          "text": "North Macedonia",
+          "detail": "+389"
+        },
+        {
+          "text": "Norway",
+          "detail": "+47"
+        },
+        {
+          "text": "Oman",
+          "detail": "+968"
+        },
+        {
+          "text": "Pakistan",
+          "detail": "+92"
+        },
+        {
+          "text": "Palestine",
+          "detail": "+970"
+        },
+        {
+          "text": "Panama",
+          "detail": "+507"
+        },
+        {
+          "text": "Paraguay",
+          "detail": "+595"
+        },
+        {
+          "text": "Peru",
+          "detail": "+51"
+        },
+        {
+          "text": "Philippines",
+          "detail": "+63"
+        },
+        {
+          "text": "Poland",
+          "detail": "+48"
+        },
+        {
+          "text": "Portugal",
+          "detail": "+351"
+        },
+        {
+          "text": "Qatar",
+          "detail": "+974"
+        },
+        {
+          "text": "Romania",
+          "detail": "+40"
+        },
+        {
+          "text": "Russia",
+          "detail": "+7"
+        },
+        {
+          "text": "Saudi Arabia",
+          "detail": "+966"
+        },
+        {
+          "text": "Serbia",
+          "detail": "+381"
+        },
+        {
+          "text": "Singapore",
+          "detail": "+65"
+        },
+        {
+          "text": "Slovakia",
+          "detail": "+421"
+        },
+        {
+          "text": "Slovenia",
+          "detail": "+386"
+        },
+        {
+          "text": "Somalia",
+          "detail": "+252"
+        },
+        {
+          "text": "South Africa",
+          "detail": "+27"
+        },
+        {
+          "text": "South Korea",
+          "detail": "+82"
+        },
+        {
+          "text": "Spain",
+          "detail": "+34"
+        },
+        {
+          "text": "Sri Lanka",
+          "detail": "+94"
+        },
+        {
+          "text": "Sudan",
+          "detail": "+249"
+        },
+        {
+          "text": "Sweden",
+          "detail": "+46"
+        },
+        {
+          "text": "Switzerland",
+          "detail": "+41"
+        },
+        {
+          "text": "Syria",
+          "detail": "+963"
+        },
+        {
+          "text": "Taiwan",
+          "detail": "+886"
+        },
+        {
+          "text": "Tajikistan",
+          "detail": "+992"
+        },
+        {
+          "text": "Tanzania",
+          "detail": "+255"
+        },
+        {
+          "text": "Thailand",
+          "detail": "+66"
+        },
+        {
+          "text": "Tunisia",
+          "detail": "+216"
+        },
+        {
+          "text": "Turkey",
+          "detail": "+90"
+        },
+        {
+          "text": "Turkmenistan",
+          "detail": "+993"
+        },
+        {
+          "text": "Uganda",
+          "detail": "+256"
+        },
+        {
+          "text": "Ukraine",
+          "detail": "+380"
+        },
+        {
+          "text": "United Arab Emirates",
+          "detail": "+971"
+        },
+        {
+          "text": "United Kingdom",
+          "detail": "+44"
+        },
+        {
+          "text": "United States",
+          "detail": "+1"
+        },
+        {
+          "text": "Uruguay",
+          "detail": "+598"
+        },
+        {
+          "text": "Uzbekistan",
+          "detail": "+998"
+        },
+        {
+          "text": "Venezuela",
+          "detail": "+58"
+        },
+        {
+          "text": "Vietnam",
+          "detail": "+84"
+        },
+        {
+          "text": "Yemen",
+          "detail": "+967"
+        },
+        {
+          "text": "Zambia",
+          "detail": "+260"
+        },
+        {
+          "text": "Zimbabwe",
+          "detail": "+263"
+        }
+      ]
+    },
+    {
+      "id": "algebra-formulas",
+      "name": "Important Algebra Formulas",
+      "description": "LaTeX is rendered with KaTeX; {{…}} expressions are evaluated with math.js.",
+      "items": [
+        {
+          "text": "Quadratic formula",
+          "detail": "$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$"
+        },
+        {
+          "text": "Discriminant",
+          "detail": "$\\Delta = b^2 - 4ac$"
+        },
+        {
+          "text": "Sum & product of roots",
+          "detail": "$x_1 + x_2 = -\\dfrac{b}{a},\\quad x_1 x_2 = \\dfrac{c}{a}$"
+        },
+        {
+          "text": "Square of a sum",
+          "detail": "$(a+b)^2 = a^2 + 2ab + b^2$"
+        },
+        {
+          "text": "Square of a difference",
+          "detail": "$(a-b)^2 = a^2 - 2ab + b^2$"
+        },
+        {
+          "text": "Difference of squares",
+          "detail": "$a^2 - b^2 = (a-b)(a+b)$"
+        },
+        {
+          "text": "Cube of a sum",
+          "detail": "$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$"
+        },
+        {
+          "text": "Cube of a difference",
+          "detail": "$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$"
+        },
+        {
+          "text": "Sum of cubes",
+          "detail": "$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$"
+        },
+        {
+          "text": "Difference of cubes",
+          "detail": "$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$"
+        },
+        {
+          "text": "Binomial theorem",
+          "detail": "$(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$"
+        },
+        {
+          "text": "Exponent: product rule",
+          "detail": "$a^m \\cdot a^n = a^{m+n}$"
+        },
+        {
+          "text": "Exponent: quotient rule",
+          "detail": "$\\dfrac{a^m}{a^n} = a^{m-n}$"
+        },
+        {
+          "text": "Exponent: power of a power",
+          "detail": "$(a^m)^n = a^{mn}$"
+        },
+        {
+          "text": "Negative & zero exponent",
+          "detail": "$a^{-n} = \\dfrac{1}{a^n},\\quad a^0 = 1\\ (a\\neq 0)$"
+        },
+        {
+          "text": "Log: product rule",
+          "detail": "$\\log_b(xy) = \\log_b x + \\log_b y$"
+        },
+        {
+          "text": "Log: quotient rule",
+          "detail": "$\\log_b\\!\\left(\\dfrac{x}{y}\\right) = \\log_b x - \\log_b y$"
+        },
+        {
+          "text": "Log: power rule",
+          "detail": "$\\log_b(x^n) = n\\log_b x$"
+        },
+        {
+          "text": "Change of base",
+          "detail": "$\\log_b x = \\dfrac{\\ln x}{\\ln b}$"
+        },
+        {
+          "text": "Arithmetic sequence: nth term",
+          "detail": "$a_n = a_1 + (n-1)d$"
+        },
+        {
+          "text": "Arithmetic series sum",
+          "detail": "$S_n = \\dfrac{n}{2}\\,(a_1 + a_n) = \\dfrac{n}{2}\\,[2a_1 + (n-1)d]$"
+        },
+        {
+          "text": "Geometric sequence: nth term",
+          "detail": "$a_n = a_1 r^{\\,n-1}$"
+        },
+        {
+          "text": "Geometric series sum",
+          "detail": "$S_n = a_1\\dfrac{1-r^n}{1-r}\\ (r\\neq 1)$"
+        },
+        {
+          "text": "Infinite geometric series",
+          "detail": "$S_\\infty = \\dfrac{a_1}{1-r},\\quad |r|<1$"
+        },
+        {
+          "text": "Slope of a line",
+          "detail": "$m = \\dfrac{y_2 - y_1}{x_2 - x_1}$"
+        },
+        {
+          "text": "Slope-intercept form",
+          "detail": "$y = mx + c$"
+        },
+        {
+          "text": "Point-slope form",
+          "detail": "$y - y_1 = m(x - x_1)$"
+        },
+        {
+          "text": "Distance formula",
+          "detail": "$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$"
+        },
+        {
+          "text": "Midpoint formula",
+          "detail": "$M = \\left(\\dfrac{x_1+x_2}{2},\\ \\dfrac{y_1+y_2}{2}\\right)$"
+        },
+        {
+          "text": "Vertex of a parabola",
+          "detail": "$h = -\\dfrac{b}{2a},\\quad k = f(h)$"
+        },
+        {
+          "text": "Absolute value inequality",
+          "detail": "$|x| < a \\iff -a < x < a$"
+        },
+        {
+          "text": "Compound interest",
+          "detail": "$A = P\\left(1 + \\dfrac{r}{n}\\right)^{nt}$"
+        },
+        {
+          "text": "Factorial & permutations",
+          "detail": "$n! = n(n-1)\\cdots 1,\\quad P(n,r) = \\dfrac{n!}{(n-r)!}$"
+        },
+        {
+          "text": "Combinations",
+          "detail": "$\\binom{n}{r} = \\dfrac{n!}{r!\\,(n-r)!}$"
+        },
+        {
+          "text": "Math.js demo: evaluate",
+          "detail": "{{ 2^10 + sqrt(144) }}"
+        },
+        {
+          "text": "Math.js demo: fraction",
+          "detail": "{{ (3/4 + 5/6) * 12 }}"
+        }
+      ]
+    },
+    {
+      "id": "names-demo",
+      "name": "Names (demo)",
+      "description": "A plain list, no details.",
+      "items": [
+        {
+          "text": "Alice"
+        },
+        {
+          "text": "Bilal"
+        },
+        {
+          "text": "Chen"
+        },
+        {
+          "text": "Daniela"
+        },
+        {
+          "text": "Emeka"
+        },
+        {
+          "text": "Fatima"
+        },
+        {
+          "text": "Giorgos"
+        },
+        {
+          "text": "Hana"
+        }
+      ]
+    }
+  ]
+}

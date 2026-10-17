@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Random Picker</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1: all lists -->
+<section id="viewLists" class="view">
+  <header class="topbar">
+    <h1>🎲 Random Picker</h1>
+    <div class="toolbar">
+      <button id="btnNew" class="primary">+ New list</button>
+      <button id="btnExport" title="Download lists.json">Export JSON</button>
+      <label class="btn" title="Load a lists.json file">Import JSON<input type="file" id="fileImport" accept=".json,application/json" hidden></label>
+      <button id="btnReset" class="danger" title="Discard local edits and reload data/lists.json">Reset</button>
+    </div>
+  </header>
+  <div class="page">
+    <input id="listSearch" type="search" class="search" placeholder="Search lists…" autocomplete="off">
+    <div id="listGrid" class="grid"></div>
+    <p id="listsEmpty" class="muted" hidden>No lists found.</p>
+  </div>
+</section>
+
+<!-- PAGE 2: picker -->
+<section id="viewPicker" class="view" hidden>
+  <header class="topbar">
+    <div class="left"><button id="btnBackLists">← Lists</button><h1 id="pTitle"></h1></div>
+    <div class="toolbar">
+      <button id="btnItems" class="primary">+ Add/edit items</button>
+      <button id="btnEdit">Edit info</button>
+      <button id="btnDelete" class="danger">Delete</button>
+    </div>
+  </header>
+  <div class="page">
+    <section class="card">
+      <p id="pDesc" class="muted"></p>
+      <div class="stage" id="stage" aria-live="polite">
+        <div id="resultText" class="result-text">Press “Pick”</div>
+        <div id="resultDetail" class="result-detail"></div>
+        <button id="btnReveal" class="ghost" hidden>Reveal details</button>
+      </div>
+      <div class="controls">
+        <button id="btnPick" class="primary big">🎯 Pick</button>
+        <label><input type="checkbox" id="optSpin"> Spin animation</label>
+        <label><input type="checkbox" id="optRemove"> Don’t repeat until all picked</label>
+        <label><input type="checkbox" id="optHide"> Hide details until revealed</label>
+        <button id="btnClearPicks" class="ghost">Reset picks</button>
+        <span id="poolInfo" class="muted"></span>
+      </div>
+    </section>
+    <section class="card">
+      <h3>History</h3>
+      <ol id="history" class="history"></ol>
+    </section>
+  </div>
+</section>
+
+<!-- PAGE 3: add / edit items -->
+<section id="viewItems" class="view" hidden>
+  <header class="topbar">
+    <div class="left"><button id="btnBackPicker">← Back</button><h1 id="iTitle"></h1></div>
+  </header>
+  <div class="page">
+    <div class="addbar">
+      <input id="itemInput" type="text" placeholder="Search or add an item…  (text :: detail)" autocomplete="off" spellcheck="false">
+      <button id="btnAddItem" class="plus" aria-label="Add item" title="Add item">+</button>
+    </div>
+    <div id="itemStatus" class="status"></div>
+    <div id="itemPreview" class="preview empty">
+      <div class="preview-label">Live preview</div>
+      <div id="pvText" class="pv-text"></div>
+      <div id="pvDetail" class="pv-detail"></div>
+      <div id="pvWarn" class="pv-warn"></div>
+    </div>
+    <div id="itemTotal" class="total"></div>
+    <ul id="itemList" class="items-edit"></ul>
+  </div>
+</section>
+
+<dialog id="dlg">
+  <form method="dialog" id="dlgForm">
+    <h3 id="dlgTitle">New list</h3>
+    <label>Name <input id="fName" required></label>
+    <label>Description <input id="fDesc"></label>
+    <label id="fItemsLabel">Items — one per line: <code>text :: detail</code> (detail optional)
+      <textarea id="fItems" rows="12" spellcheck="false"></textarea>
+    </label>
+    <p class="muted small">Math: wrap LaTeX in <code>$…$</code> or <code>$$…$$</code>. Use <code>{{ 2^10 + sqrt(16) }}</code> to evaluate with math.js.</p>
+    <div class="dlg-actions">
+      <button value="cancel" type="button" id="dlgCancel">Cancel</button>
+      <button value="ok" class="primary" id="dlgSave">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.1/math.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
